@@ -1,0 +1,77 @@
+{
+    //editor config
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font Complete', 'Iosevka Term', Consolas, 'Courier New', monospace",
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    // workbench
+    "workbench.colorTheme": "Monokai",
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    //window
+    "window.zoomLevel": 1,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    // terminal
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    // files
+    "files.eol": "\n",
+    // extension
+    "extensions.ignoreRecommendations": true,
+    // c++
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: true, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4, AllowShortLoopsOnASingleLine: true}",
+    "C_Cpp.autocompleteAddParentheses": true,
+    // markdown
+    "markdown.extension.print.absoluteImgPath": false,
+    "markdown.extension.list.indentationSize": "inherit",
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "markdownlint.config": {
+        "MD007": {
+            "indent": 4
+        },
+    },
+    "xml.server.binary.trustedHashes": [
+        "ff8b0442e4676b286a7af033ffb57926dd9a3a03a9e00f339c0842baa4f7bfd6"
+    ],
+    "markdown-header-coloring.userDefinedHeaderColor": {
+        "enabled": true,
+        "Header_1": {
+            "backgroundColor": "background: #ff6e6e; opacity: 0.1",
+            "textDecoration": "color: #ff5555;"
+        },
+        "Header_2": {
+            "backgroundColor": "background: #69ff94; opacity: 0.1",
+            "textDecoration": "color: #50fa7b;"
+        },
+        "Header_3": {
+            "backgroundColor": "background: #ffffa5; opacity: 0.1",
+            "textDecoration": "color: #f1fa8c;"
+        },
+        "Header_4": {
+            "backgroundColor": "background: #d6acff; opacity: 0.1",
+            "textDecoration": "color: #bd93f9;"
+        },
+        "Header_5": {
+            "backgroundColor": "background: #ff79c6; opacity: 0.1",
+            "textDecoration": "color: #ff92df;"
+        },
+        "Header_6": {
+            "backgroundColor": "background: #8be9fd; opacity: 0.1",
+            "textDecoration": "color: #a4ffff;"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "php.validate.executablePath": "C:/XAMPP/apache/bin/httpd",
+    "cSpell.userWords": [
+        "behaviour"
+    ],
+}
