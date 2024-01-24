@@ -1,7 +1,5 @@
 # Windows
 
-> Windows 10, i ain't going to windows 11
-
 ## Software
 
 Software | Description
